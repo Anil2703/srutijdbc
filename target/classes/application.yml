@@ -1,0 +1,9 @@
+spring:
+#  profiles: default
+  datasource:
+    jdbc-url: jdbc:mysql://localhost:3306/spring_db
+    username: devuser
+    password: pass123
+    driver-class-name: com.mysql.jdbc.Driver
+#    hikari:
+#      maximum-pool-size: 10
